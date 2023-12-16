@@ -1,0 +1,30 @@
+{
+  "name": "contacts",
+  "version": "1.0.0",
+  "description": "Contacts Project for CSE341",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khayes133/contacts.git"
+  },
+  "author": "Kristina Hayes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khayes133/contacts/issues"
+  },
+  "homepage": "https://github.com/khayes133/contacts#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongodb": "^6.3.0",
+    "nodemon": "^3.0.2",
+    "swagger-autogen": "^2.23.7",
+    "swagger-ui-express": "^5.0.0"
+  }
+}
